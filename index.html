@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard with Sidebar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2>Dashboard</h2>
+            </div>
+            <ul class="sidebar-menu">
+                <!-- Categories will be injected here by JavaScript -->
+            </ul>
+            <div class="sidebar-footer">
+                <button id="change-mode">Change mode</button>
+                <button id="logout">Logout</button>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="topbar">
+                <div class="topbar-menu">
+                    <span>&#9776;</span>
+                </div>
+                <div class="profile">
+                    <span>Jones Ferdinand</span>
+                    <img src="profile-pic.jpg" alt="Profile Picture">
+                </div>
+            </div>
+            <div class="content">
+                <h1>Products</h1>
+                <table id="products-table" class="products-table">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Image</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
